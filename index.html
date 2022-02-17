@@ -12,70 +12,83 @@
 <body>
   <main>
     <div class="main-container"> 
-      <div class="main-description-container">   
-      <p>Report for</p>
+      <div class="main-description-container">
+        <img src="images/image-jeremy.png" alt="Jeremy">   
+      <div><p>Report for</p>
       <h1 class="main-container-name">
-      Jeremy Robson</h1>
+      Jeremy Robson</h1></div>
       </div>
       <div class="main-container-list">
-      <ul >
-      <li>Daily</li>
-      <li>Weekly</li>
-      <li>Monthly</li>
-      </ul>
+      
+       <a id="daily" onclick="changeToDayly()" onmouseout="out(this)" onmouseover="over(this)">Daily</a>
+       <a id="weekly" onclick="changeToWeekly()" onmouseout="out(this)" onmouseover="over(this)">Weekly</a>
+       <a id="monthly" onclick="changeToMonthly()" onmouseout="out(this)" onmouseover="over(this)">Monthly</a>
+      
       </div>
   </div>
   <div class="boxes">
   <div class="first-row">
-  <div class="box">
-    <div class="img-container"><img src="images/icon-work.svg" alt=""></div>
+  <div class="box" id="work">
+    <div class="img-container"><img src="images/icon-work.svg" alt="icon-work"></div>
     <div class="box-content">
-    <p id="title" class="tw">Study</p>
-    <h1 id="current" class="cw">0hrs</h1> <!-- daily -->
-    <p id="previous" class="pw">Previous - 1hr</p> <!-- daily -->
+      <div id="row"><p id="tw" >Study</p> <img src="images/icon-ellipsis.svg" alt="icon-ellipsis"></div>
+      <div id="column">
+        <h1 id="cw">0hrs</h1> <!-- daily -->
+        <p id="pw">Previous - 1hr</p>
+    </div> <!-- daily -->
     </div>
   </div>
-  <div class="box">
-    <div class="img-container"><img src="images/icon-work.svg" alt=""></div>
+  <div class="box" id="play">
+    <div class="img-container"><img src="images/icon-play.svg" alt="icon-play"></div>
   <div class="box-content">
-  <p id="title" class="tpl">Study</p>
-  <h1 id="current" class="cpl">0hrs</h1> <!-- daily -->
-  <p id="previous" class="ppl">Previous - 1hr</p> <!-- daily -->
+  <div id="row"><p id="tpl" >Study</p> <img src="images/icon-ellipsis.svg" alt="icon-ellipsis"></div>
+  <div id="column">
+    <h1 id="cpl">0hrs</h1> <!-- daily -->
+    <p id="ppl">Previous - 1hr</p>
+</div> <!-- daily -->
   </div>
   </div>
-  <div class="box">
-    <div class="img-container"><img src="images/icon-work.svg" alt=""></div>
+  <div class="box" id="study">
+    <div class="img-container"><img src="images/icon-study.svg" alt="icon-study"></div>
   <div class="box-content">
-  <p id="title" class="tst">Study</p>
-  <h1 id="current" class="cst">0hrs</h1> <!-- daily -->
-  <p id="previous pst">Previous - 1hr</p> <!-- daily -->
+    <div id="row"><p id="tst" >Study</p> <img src="images/icon-ellipsis.svg" alt="icon-ellipsis"></div>
+    <div id="column">
+      <h1 id="cst">0hrs</h1> <!-- daily -->
+      <p id="pst">Previous - 1hr</p>
+  </div> <!-- daily -->
   </div>
   </div>
 </div>
 <div class="second-row">
-  <div class="box">
-    <div class="img-container"><img src="images/icon-work.svg" alt=""></div>
+  <div class="box" id="exercise">
+    <div class="img-container"><img src="images/icon-exercise.svg" alt="icon-exercise"></div>
   <div class="box-content">
-  <p id="title" class="tex">Study</p>
-  <h1 id="current" class="cex">0hrs</h1> <!-- daily -->
-  <p id="previous" class="pex">Previous - 1hr</p> <!-- daily -->
+    <div id="row"><p id="tex" >Study</p> <img src="images/icon-ellipsis.svg" alt="icon-ellipsis"></div>
+    <div id="column">
+      <h1 id="cex">0hrs</h1> <!-- daily -->
+      <p id="pex">Previous - 1hr</p>
+  </div> <!-- daily -->
   </div>
 </div>
-  <div class="box">
-    <div class="img-container"><img src="images/icon-work.svg" alt=""></div>
+  <div class="box" id="social">
+    <div class="img-container"><img src="images/icon-social.svg" alt="icon-social"></div>
     <div class="box-content">
-  <p id="title" class="tso">Study</p>
-  <h1 id="current" class="cso">0hrs</h1> <!-- daily -->
-  <p id="previous" class="pso">Previous - 1hr</p> <!-- daily -->
+      <div id="row"><p id="tso" >Study</p> <img src="images/icon-ellipsis.svg" alt="icon-ellipsis"></div>
+      <div id="column">
+        <h1 id="cso">0hrs</h1> <!-- daily -->
+        <p id="pso">Previous - 1hr</p>
+    </div> <!-- daily -->
   </div>
 </div>
 
-  <div class="box">
-    <div class="img-container"><img src="images/icon-work.svg" alt=""></div>
+  <div class="box" id="self-care">
+    <div class="img-container"><img src="images/icon-self-care.svg" alt="icon-self-care"></div>
 <div class="box-content">
-  <p id="title" class="tse">Study</p>
-  <h1 id="current" class="cse">0hrs</h1> <!-- daily -->
-  <p id="previous" class="pse">Previous - 1hr</p> <!-- daily -->
+  <div id="row"><p id="tse" >Study</p> <img src="images/icon-ellipsis.svg" alt="icon-ellipsis"></div>
+  <div id="column">
+    <h1 id="cse">0hrs</h1> <!-- daily -->
+    <p id="pse">Previous - 1hr</p>
+</div> <!-- daily -->
   </div>
   </div>
   </div>
