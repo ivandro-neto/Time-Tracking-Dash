@@ -18,7 +18,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: https://github.com/ivandro-neto/QR-code-component
+- Solution URL: https://github.com/ivandro-neto/Time-Tracking-Dashboard.git
 - Live Site URL: https://ivandro-neto.github.io/Time-Tracking-Dashboard/
 
 ## My process
