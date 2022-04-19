@@ -78,8 +78,12 @@ a{
 	height: 230px;
 	margin: 0;
 }
+
 #work{
 	background-color: hsl(15, 100%, 70%);
+}
+#row p, #column h1{
+	animation: change 500ms linear;
 }
 #play{
 	background-color:  hsl(195, 74%, 62%);
@@ -96,6 +100,14 @@ a{
 #self-care{
 	background-color: hsl(43, 84%, 65%);
 }
+@keyframes change{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 .box-content{
 	position: absolute;
 	top: 50px ;
@@ -107,8 +119,10 @@ a{
 	cursor: pointer;
 	width: 210px;
 	height: 220px;
+	transition: 500ms;
 	z-index: 2;
 }
+
 .box-content:hover{
 	background-color: hsl(246, 80%, 60%);
 
