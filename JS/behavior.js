@@ -112,7 +112,6 @@ actived = "weekly"
 function over(x) {if(x.style.color != "white" ){x.style.color = "white"}}
 function out(x) {if (x.style.color == "white" && actived != x.id){x.style.color = "hsl(236, 100%, 87%)"}}
 
-
 function changeToDayly(){
   actived = "daily"
   select(actived)
@@ -126,22 +125,22 @@ function changeToMonthly() {
   select(actived)
 }
 function select(_actived){
-if(_actived == "daily"){
-  document.querySelector("#cw").innerHTML = list[0].timeframes.daily.current + 'hrs'
-  document.querySelector("#pw").innerHTML = 'Last day - ' + list[0].timeframes.daily.previous + 'hrs'
-      document.querySelector("#cst").innerHTML = list[1].timeframes.daily.current + 'hrs'
-      document.querySelector("#pst").innerHTML = 'Last day - ' + list[1].timeframes.daily.previous + 'hrs'
-      document.querySelector("#cpl").innerHTML = list[2].timeframes.daily.current + 'hrs'
-      document.querySelector("#ppl").innerHTML = 'Last day - ' + list[2].timeframes.daily.previous + 'hrs'
-      document.querySelector("#cex").innerHTML = list[3].timeframes.daily.current + 'hrs'
-      document.querySelector("#pex").innerHTML = 'Last day - ' + list[3].timeframes.daily.previous + 'hrs'
-      document.querySelector("#cso").innerHTML = list[4].timeframes.daily.current + 'hrs'
-      document.querySelector("#pso").innerHTML = 'Last day - ' + list[4].timeframes.daily.previous + 'hrs'
-      document.querySelector("#cse").innerHTML = list[5].timeframes.daily.current + 'hrs'
-      document.querySelector("#pse").innerHTML = 'Last day - ' + list[5].timeframes.daily.previous + 'hrs'
-      document.querySelector("#daily").style.color = "white"; 
-      document.querySelector("#weekly").style.color = " hsl(236, 100%, 87%)";
-      document.querySelector("#monthly").style.color = " hsl(236, 100%, 87%)";
+  if(_actived == "daily"){
+    document.querySelector("#cw").innerHTML = list[0].timeframes.daily.current + 'hrs'
+    document.querySelector("#pw").innerHTML = 'Last day - ' + list[0].timeframes.daily.previous + 'hrs'
+    document.querySelector("#cst").innerHTML = list[1].timeframes.daily.current + 'hrs'
+    document.querySelector("#pst").innerHTML = 'Last day - ' + list[1].timeframes.daily.previous + 'hrs'
+    document.querySelector("#cpl").innerHTML = list[2].timeframes.daily.current + 'hrs'
+    document.querySelector("#ppl").innerHTML = 'Last day - ' + list[2].timeframes.daily.previous + 'hrs'
+    document.querySelector("#cex").innerHTML = list[3].timeframes.daily.current + 'hrs'
+    document.querySelector("#pex").innerHTML = 'Last day - ' + list[3].timeframes.daily.previous + 'hrs'
+    document.querySelector("#cso").innerHTML = list[4].timeframes.daily.current + 'hrs'
+    document.querySelector("#pso").innerHTML = 'Last day - ' + list[4].timeframes.daily.previous + 'hrs'
+    document.querySelector("#cse").innerHTML = list[5].timeframes.daily.current + 'hrs'
+    document.querySelector("#pse").innerHTML = 'Last day - ' + list[5].timeframes.daily.previous + 'hrs'
+    document.querySelector("#daily").style.color = "white"; 
+    document.querySelector("#weekly").style.color = " hsl(236, 100%, 87%)";
+    document.querySelector("#monthly").style.color = " hsl(236, 100%, 87%)";
     }
 
     if(_actived == "weekly"){
