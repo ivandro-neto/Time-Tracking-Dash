@@ -27,6 +27,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 - Semantic HTML5 markup
 - Flexbox
+- Grid 
 - Media Query
 - OOP Javascript
 - JSON
