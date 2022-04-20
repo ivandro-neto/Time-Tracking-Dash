@@ -112,10 +112,6 @@ actived = "weekly"
 function over(x) {if(x.style.color != "white" ){x.style.color = "white"}}
 function out(x) {if (x.style.color == "white" && actived != x.id){x.style.color = "hsl(236, 100%, 87%)"}}
 
-let resize = (x) =>{
-  
-    document.querySelector('.imgs'). = '100px'
-}
 
 function changeToDayly(){
   actived = "daily"
