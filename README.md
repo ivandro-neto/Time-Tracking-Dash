@@ -15,7 +15,6 @@
 
 ### Links
 
-- Solution URL: https://github.com/ivandro-neto/Time-Tracking-Dashboard.git
 - Live Site URL: https://ivandro-neto.github.io/Time-Tracking-Dashboard/
 
 ## My process
